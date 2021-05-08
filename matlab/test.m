@@ -18,3 +18,4 @@ toc;
 %% Show result
 figure(1);
 imshow(im_dm);
+title('disparity map');
