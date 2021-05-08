@@ -2,7 +2,7 @@
 MATLAB implementation of fast stereo disparity estimator.
 
 # Disparity map
-Try simple [example](matlab/test.m)
+Try simple matlab [example](matlab/test.m).
 ```matlab
 %% Input stereo pair of images
 im_ol=rgb2gray(imread('images/left.png'));
@@ -25,6 +25,8 @@ title('disparity map');
 
 <p align="center"><img width="33%" src="matlab/images/left.png"/><img width="33%" src="matlab/images/right.png"/><img width="33%" src="matlab/images/result.png"/></p>  
 <p align="center"><b>Figure 1.</b> Stereo pair of images (left & right camera) and disparity map</p>  
+
+Try it in [.NET](https://github.com/asiryan/UMapx/blob/master/sources/Imaging/StereoDisparity.cs).
 
 # License
 MIT
