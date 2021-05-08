@@ -2,8 +2,9 @@
 MATLAB implementation of fast stereo disparity estimator.
 
 # Disparity map
-Try simple [example](matlab/test.m) to start
+Try simple [example](matlab/test.m)
 ```matlab
+%% Input stereo pair of images
 im_ol=rgb2gray(imread('images/left.png'));
 im_or=rgb2gray(imread('images/right.png'));
 
