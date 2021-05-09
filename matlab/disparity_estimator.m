@@ -1,5 +1,5 @@
 %% Fast Stereo Disparity Estimator
-% Function "disparity_filter.m"
+% Function "disparity_estimator.m"
 %% Description:
 % Disparity filter function.
 %% Input:
@@ -11,7 +11,7 @@
 %
 %% Output:
 % disparity - disparity map.
-function disparity = disparity_filter(im_ol, im_or, win, max_dis, weight)
+function disparity = disparity_estimator(im_ol, im_or, win, max_dis, weight)
 % input shape
 [x,y,~]=size(im_ol);
 
@@ -31,5 +31,5 @@ im_l(:,:,3)=gra_l_y;
 im_r(:,:,3)=gra_r_y;
 
 % make disparity map
-disparity=make_disparity(im_l,im_r,win,max_dis,weight);
+disparity=disparity_processor(im_l,im_r,win,max_dis,weight);
 end

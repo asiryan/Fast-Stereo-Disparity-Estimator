@@ -12,7 +12,7 @@ max_dis=50;
 weight=5;
 
 tic;
-im_dm = disparity_filter(im_ol, im_or, win, max_dis, weight);
+im_dm = disparity_estimator(im_ol, im_or, win, max_dis, weight);
 toc;
 
 %% Show result

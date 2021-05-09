@@ -1,5 +1,5 @@
 %% Fast Stereo Disparity Estimator
-% Function "make_disparity.m"
+% Function "disparity_processor.m"
 %% Description:
 % Makes disparity map from the two image matrices:
 % {x-gradient, y-gradient, grayscale image}.
@@ -12,7 +12,7 @@
 %
 %% Output:
 % disparity - disparity map.
-function disparity = make_disparity(im_l, im_r, win, max_dis, weight)
+function disparity = disparity_processor(im_l, im_r, win, max_dis, weight)
 % input shape
 [x,y,z]=size(im_l);
 
