@@ -1,7 +1,7 @@
 %% Fast Stereo Disparity Estimator
 % Function "disparity_estimator.m"
 %% Description:
-% Disparity filter function.
+% Disparity estimator function.
 %% Input:
 % im_l - left image,
 % im_r - right image,
