@@ -19,7 +19,7 @@ function disparity = disparity_estimator(im_ol, im_or, win, max_dis, weight)
 [gra_l_x, gra_l_y]=gradient(double(im_ol));
 [gra_r_x, gra_r_y]=gradient(double(im_or));
 
-% make a image matrix
+% matrices
 im_l=zeros(x,y,3);
 im_r=zeros(x,y,3);
 
