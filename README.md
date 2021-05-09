@@ -8,7 +8,7 @@ Try simple matlab [**example**](matlab/test.m).
 im_ol=rgb2gray(imread('images/left.png'));
 im_or=rgb2gray(imread('images/right.png'));
 
-%% Disparity filter
+%% Disparity
 win=10;
 max_dis=50;
 weight=5;
