@@ -17,7 +17,7 @@ tic;
 im_dm = disparity_estimator(im_ol, im_or, win, max_dis, weight);
 toc;
 
-%% Show result
+%% Result
 figure(1);
 imshow(im_dm);
 title('disparity map');
